@@ -10,10 +10,10 @@ for (i < max) {
     if(commands[i] == "forward"){
         horizontal = horizontal + commands[i + 1].to_int()
     }
-    if(commands[i] == "up"){
+    else if(commands[i] == "up"){
         vertical = vertical - commands[i + 1].to_int()
     }
-    if(commands[i] == "down") {
+    else if(commands[i] == "down") {
         vertical = vertical + commands[i + 1].to_int()
     }
     

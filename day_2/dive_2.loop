@@ -12,10 +12,10 @@ for (i < max) {
         x = x + commands[i + 1].to_int()
         y = y + (commands[i + 1].to_int() * aim)
     }
-    if(commands[i] == "up"){
+    else if(commands[i] == "up"){
         aim = aim - commands[i + 1].to_int()
     }
-    if(commands[i] == "down") {
+    else if(commands[i] == "down") {
         aim = aim + commands[i + 1].to_int()
     }
     
